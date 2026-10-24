@@ -808,7 +808,7 @@ aws ec2 describe-instances --region ap-southeast-1 --filters "Name=tag:Project,V
 
 Hasil yang diharapkan: daftar `Reservations` kosong.
 
-> Berkas lokal `vault-lab-key.pem` dan `terraform.tfstate` tidak ikut terhapus oleh `terraform destroy`. Hapus manual bila sudah tidak dibutuhkan. Keduanya tidak boleh di-commit ke Git (sudah dikecualikan di `.gitignore`).
+> Apabila berkas lokal `vault-lab-key.pem` dan `terraform.tfstate` tidak ikut terhapus oleh `terraform destroy`. Hapus manual bila sudah tidak dibutuhkan. Keduanya tidak boleh di-commit ke Git (sudah dikecualikan di `.gitignore`).
 
 ---
 
