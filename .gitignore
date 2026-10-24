@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+
+# Kunci & rahasia
+*.pem
+*.key
+*.token
+*unseal*
+*root-token*
+init-output*
